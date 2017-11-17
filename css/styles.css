@@ -23,6 +23,11 @@ html {
   clear: both;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .header {
   width: auto;
   height: 80px;
@@ -32,22 +37,38 @@ html {
   font-family: 'Orbitron', sans-serif;
 }
 
-.header > h1, .header > p{
+.header > * {
   position: absolute;
   margin: 0;
   top: 50%;
+}
+
+.header img:first-child {
+  left: 10px;
+  transform: translate(0, -50%);
+  height: 30px;
+}
+
+.header img:nth-child(2) {
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100%;
+}
+
+.header a {
+  right: 10px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  border: 1px solid #fff;
+  padding: 20px;
+  border-radius: 20px;
   transform: translate(0, -50%);
 }
 
-.header > h1 {
-  left: 10px;
-  letter-spacing: 4px;
-}
-
-.header > p {
-  right: 10px;
-  font-size: 18px;
-  letter-spacing: 2px;
+.header .buy-button p {
+  margin: 0;
+  position: relative;
+  top: 1px;
 }
 
 .upper-left {
@@ -55,7 +76,10 @@ html {
   width: 70%;
   padding: 20px;
   border-right: 1px solid #fff;
+}
 
+.upper-left > img {
+  max-width: 100%;
 }
 
 .upper-right {
