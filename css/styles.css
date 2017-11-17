@@ -82,10 +82,11 @@ a {
 .main {
   position: relative;
   top: 80px;
+  margin: 0 40px;
 }
 
 .upper {
-  margin-bottom: 40px;
+  margin: 40px 0;
 }
 
 .upper-left {
@@ -96,8 +97,20 @@ a {
   position: relative;
 }
 
-.upper-left > img {
+.upper-left img {
   max-width: 100%;
+}
+
+.upper-left:after {
+  font-family: 'Permanent Marker', cursive;
+  content: "Available Now!";
+  display: inline-block;
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
+  transform: rotate(-25deg);
+  color: #FC001D;
+  font-size: 40px;
 }
 
 .upper-right {
@@ -115,7 +128,7 @@ a {
 
 .upper-right th, .upper-right td {
   border-bottom: 1px solid #fff;
-  padding: .7em;
+  padding: .5em;
 }
 
 .upper-right table tbody tr:last-child th, .upper-right table tbody tr:last-child td {
@@ -138,6 +151,11 @@ a {
   padding-top: 20px;
   margin: 40px 20px 0 20px;
   text-align: center;
+}
+
+.lower img {
+  width: 80%;
+  height: auto;
 }
 
 .row {
