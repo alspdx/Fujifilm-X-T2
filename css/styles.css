@@ -30,12 +30,15 @@ a {
 }
 
 .header {
-  width: auto;
+  width: 1400px;
   height: 80px;
-  position: relative;
+  position: fixed;
+  top: 0;
   margin: 0 20px 40px 20px;
   border-bottom: 1px solid #fff;
   font-family: 'Orbitron', sans-serif;
+  background: #000;
+  z-index: 1000;
 }
 
 .header > * {
@@ -66,6 +69,10 @@ a {
   transform: translate(0, -50%);
 }
 
+.header a:hover {
+  cursor: pointer;
+}
+
 .header .buy-button p {
   margin: 0;
   position: relative;
@@ -73,7 +80,8 @@ a {
 }
 
 .upper {
-  margin-bottom: 40px;}
+  margin-bottom: 40px;
+}
 
 .upper-left {
   float: left;
@@ -85,6 +93,8 @@ a {
 .upper-left > img {
   max-width: 100%;
 }
+
+
 
 .upper-right {
   float: right;
@@ -119,7 +129,25 @@ a {
 .lower {
   clear: both;
   width: auto;
-  height: 100px;
+  height: 300px;
   border-top: 1px solid #fff;
+  padding-top: 20px;
   margin: 40px 20px 0 20px;
+  text-align: center;
+}
+
+.row {
+  padding: 20px 0;
+}
+
+.row div {
+  display: inline-block;
+}
+
+.row div:first-child {
+  float: left;
+}
+
+.row div:last-child {
+  float:right;
 }
