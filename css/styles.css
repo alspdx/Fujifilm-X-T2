@@ -11,6 +11,7 @@ html {
   box-sizing: border-box;
   background: #000;
   color: #fff;
+  font-family: 'Lato', sans-serif;
 }
 
 *, *:before, *:after {
@@ -88,6 +89,31 @@ a {
 .upper-right {
   float: right;
   width: 30%;
+  position: relative;
+}
+
+.upper-right table {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border-collapse: collapse;
+}
+
+.upper-right th, .upper-right td {
+  border-bottom: 1px solid #fff;
+  padding: .7em;
+}
+
+.upper-right table tbody tr:last-child th, .upper-right table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.upper-right th {
+  text-align: left;
+}
+
+.upper-right td {
+  text-align: right;
 }
 
 .lower {
