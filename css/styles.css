@@ -79,6 +79,11 @@ a {
   top: 1px;
 }
 
+.main {
+  position: relative;
+  top: 80px;
+}
+
 .upper {
   margin-bottom: 40px;
 }
@@ -88,13 +93,12 @@ a {
   width: 70%;
   padding: 20px;
   border-right: 1px solid #fff;
+  position: relative;
 }
 
 .upper-left > img {
   max-width: 100%;
 }
-
-
 
 .upper-right {
   float: right;
