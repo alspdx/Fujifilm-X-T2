@@ -27,7 +27,7 @@ html {
   width: auto;
   height: 80px;
   position: relative;
-  margin: 0 20px;
+  margin: 0 20px 40px 20px;
   border-bottom: 1px solid #fff;
   font-family: 'Orbitron', sans-serif;
 }
@@ -48,4 +48,17 @@ html {
   right: 10px;
   font-size: 18px;
   letter-spacing: 2px;
+}
+
+.upper-left {
+  float: left;
+  width: 70%;
+  padding: 20px;
+  border-right: 1px solid #fff;
+
+}
+
+.upper-right {
+  float: right;
+  width: 30%;
 }
