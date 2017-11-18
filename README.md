@@ -23,7 +23,7 @@
 
 ## Setup
 
-Visit the webpage [here](alspdx.github.io/Fujifilm-X-T2).
+Visit the webpage [here](https://alspdx.github.io/Fujifilm-X-T2).
 
 Alternately you may [Clone this repository](https://github.com/alspdx/Fujifilm-X-T2).
   1. Click on the link above.
