@@ -84,7 +84,7 @@ a {
   position: relative;
   top: 80px;
   margin: 0 40px 40px 40px;
-  height:
+
 }
 
 .upper {
@@ -108,7 +108,7 @@ a {
 .upper-left:after {
   font-family: 'Permanent Marker', cursive;
   content: "Available Now!";
-  display: inline-block;
+  display: inline;
   position: absolute;
   bottom: 20%;
   left: 10%;
@@ -151,27 +151,34 @@ a {
   margin: 0px 40px;
 }
 
+.middle p span {
+  display: block;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.middle p span:first-letter {
+  color: #FC001D;
+}
+
 .lower {
-  clear: both;
-  width: auto;
   height: 300px;
   border-top: 1px solid #fff;
   padding-top: 20px;
-  margin: 40px 20px 0 20px;
-  text-align: center;
-}
-
-.lower img {
-  width: 80%;
-  height: auto;
+  margin: 40px 0;
 }
 
 .row {
   padding: 20px 0;
+  text-align: center;
 }
 
 .row div {
-  display: inline-block;
+  display: inline;
+}
+
+.row div img {
+  width: 400px;
 }
 
 .row div:first-child {
@@ -179,12 +186,13 @@ a {
 }
 
 .row div:last-child {
-  float:right;
+  float: right;
 }
 
 .footer {
-  width: 1400px;
+  width: 1440px;
   position: fixed;
+  display: block;
   bottom: 0;
   height: 24px;
   background: black;
