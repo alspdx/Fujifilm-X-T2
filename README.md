@@ -1,12 +1,10 @@
 # Fujifilm XT-2 Product Page
 
-#### Prodict information page for the new Fujifilm camera, the X-T2
+#### Product information page for the new Fujifilm camera, the X-T2, _2017_
 
 #### by **Adam Smith**
 
 ## Description
-
-
 
 | Term | Description | Implementation |
 | -- |:--:| --|

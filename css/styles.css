@@ -29,6 +29,10 @@ a {
   color: inherit;
 }
 
+.wrapper {
+  width: 1440px;
+}
+
 .header {
   width: 1400px;
   height: 80px;
@@ -81,6 +85,7 @@ a {
 }
 
 .main {
+
   position: relative;
   top: 80px;
   margin: 0 40px 40px 40px;
